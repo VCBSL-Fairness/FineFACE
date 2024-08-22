@@ -45,7 +45,7 @@ python train_FairFace_gender_ResNet50.py
 
 ## Acknowledgement
 
-This work is supported by National Science Foundation (NSF) award no. 2129173. Part of the training code is inspired by [Dichao-Liu](https://github.com/Dichao-Liu/CMAL), and many thanks to them.
+This work is supported by National Science Foundation (NSF) award no. 2129173. This work is inspired by [Dichao-Liu](https://github.com/Dichao-Liu/CMAL), and many thanks to them.
 
    
    
