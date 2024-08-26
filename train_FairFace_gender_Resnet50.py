@@ -303,7 +303,7 @@ def train(nb_epoch, batch_size, store_name, resume=False, start_epoch=0, model_p
                 train_loss4 / (idx + 1), train_loss5 / (idx + 1)))
 
         if epoch < 5 or epoch >= 20:
-            val_acc_com, val_loss, accuracies= test(net, CELoss, 3, data_path+'/fairface_test_gender')
+            val_acc_com, val_loss = test(net, CELoss, 3, data_path+'/fairface_test_gender')
             if val_acc_com > max_val_acc:
                 max_val_acc = val_acc_com
                 net.cpu()
