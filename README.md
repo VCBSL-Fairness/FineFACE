@@ -3,7 +3,12 @@
 ## Table of Contents
 - [Overview](https://github.com/VCBSL-Fairness/FineFACE?tab=readme-ov-file#overview)
 - [FineFACE network architecture](https://github.com/VCBSL-Fairness/FineFACE?tab=readme-ov-file#fineface-network-architecture)
-- 
+- [Approach](https://github.com/VCBSL-Fairness/FineFACE/blob/main/README.md#approach)
+- [Environment](https://github.com/VCBSL-Fairness/FineFACE?tab=readme-ov-file#environment)
+- [Datasets](https://github.com/VCBSL-Fairness/FineFACE?tab=readme-ov-file#datasets)
+- [Training](https://github.com/VCBSL-Fairness/FineFACE?tab=readme-ov-file#training)
+- [Acknowledgement](https://github.com/VCBSL-Fairness/FineFACE?tab=readme-ov-file#acknowledgement)
+- [Citation](https://github.com/VCBSL-Fairness/FineFACE?tab=readme-ov-file#citation)
 
 ## Overview
 
