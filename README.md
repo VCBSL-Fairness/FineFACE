@@ -47,5 +47,15 @@ python train_FairFace_gender_ResNet50.py
 
 This work is supported by National Science Foundation (NSF) award no. 2129173. The code is inspired by [Dichao-Liu](https://github.com/Dichao-Liu/CMAL), [Du et al](https://github.com/PRIS-CV/PMG-Progressive-Multi-Granularity-Training) and many thanks to them.
 
+## Citation
+
+@inproceedings{fine-icpr,
+  title={FineFACE: Fair Facial Attribute Classification Leveraging Fine-grained Features},
+  author={Ayesha Manzoor and Ajita Rattani},
+  booktitle    = {{The International Conference on Pattern Recognition (ICPR}},
+  publisher    = {{IAPR}},
+  year         = {2024}
+}
+
    
    
