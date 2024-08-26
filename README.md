@@ -11,8 +11,8 @@ This figure illustrates this method by introducing three experts e1, e2, e3, on 
 
 ## Requirements
 
--Python
--PyTorch
+- Python
+- PyTorch
 
 ## Datasets
 
