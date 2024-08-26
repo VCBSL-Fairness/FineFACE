@@ -9,6 +9,11 @@ Published research highlights the presence of demographic bias in automated faci
 
 This figure illustrates this method by introducing three experts e1, e2, e3, on a 5-stage backbone CNN (e.g., ResNet50). The workflow of each expert and the concatenation of experts are depicted in different colors. Each expert receives feature maps from a specific layer as input and generates a categorical prediction along with an attention region, which is used for data augmentation by other experts. This architecture is trained in multiple steps within each iteration. We start by training the deepest expert (e3), followed by the shallower experts. Finally, in the last step, we train the concatenation of experts to enhance overall performance.
 
+## Requirements
+
+-Python
+-PyTorch
+
 ## Datasets
 
 1. Download the FairFace, UTKFace, LFWA+ and CelebA datasets and organize the structure as follows:
