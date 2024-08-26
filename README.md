@@ -1,7 +1,7 @@
 # FineFACE: Fair Facial Attribute Classification Leveraging Fine-grained Features
 
 ## Table of Contents
-- [Overview](Overview)
+- [Overview](https://github.com/VCBSL-Fairness/FineFACE?tab=readme-ov-file#overview)
 
 ## Overview
 
