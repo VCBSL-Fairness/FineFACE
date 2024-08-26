@@ -9,10 +9,21 @@ Published research highlights the presence of demographic bias in automated faci
 
 This figure illustrates this method by introducing three experts e1, e2, e3, on a 5-stage backbone CNN (e.g., ResNet50). The workflow of each expert and the concatenation of experts are depicted in different colors. Each expert receives feature maps from a specific layer as input and generates a categorical prediction along with an attention region, which is used for data augmentation by other experts. This architecture is trained in multiple steps within each iteration. We start by training the deepest expert (e3), followed by the shallower experts. Finally, in the last step, we train the concatenation of experts to enhance overall performance.
 
-## Requirements
+## Working
 
-- Python
-- PyTorch
+Enhancing feature representation for each demographic subgroup is crucial in improving fairness without compromising overall performance. Traditional facial attribute classifiers rely predominantly on high-level discriminative and semantically meaningful information often obtained from the final layers of the deep convolutional neural network(CNN). However, the lower layers of the deep learning model capture (low-level) essential features and patterns in faces vital for attribute classification, such as (a) facial contours and edges, including the outline of the face, jawline and cheekbones, (b) texture of facial regions, such as skin and hair, (c) position and shape information, and (d) lighting condition and its effect on the appearance of facial features. Integrating low-level details from the lower layers of the model will capture local and detailed cues in the learned feature representation.
+
+In our quest to identify these subtle and local cues for learning enhanced feature representation, we aim to leverage fine-grained analysis, integrating both high- and low-level features, toward fair facial attribute classification, FineFACE. This is facilitated through a cross-layer mutual attention learning technique that learns fine-grained features by considering the layers of a deep learning model from shallow to deep as independent ’experts’ knowledgeable about low-level detailed to high-level semantic information, respectively. These experts are trained in leveraging mutual data augmentation to incorporate attention regions proposed by other experts. An ordinary deep learning model can be considered to use only the deepest expert (using high-level semantic information) for classification. Contrarily, our method consolidates the prediction of the categorical label and the attention region of each expert for the final facial attribute classification task.
+
+## Environment
+
+This source code was tested on
+
+- Python = 3.10.12
+- PyTorch = 2.2.0+cu118
+- torchvision = 0.17.0+cu118
+- GPU Model: NVIDIA A10
+- NVIDIA-SMI Version: 545.23.08
 
 ## Datasets
 
