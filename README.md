@@ -50,14 +50,15 @@ This work is supported by National Science Foundation (NSF) award no. 2129173. T
 ## Citation
 
 If you fine our work useful, please cite our paper
-
-```@inproceedings{fine-icpr,
+```
+@inproceedings{fine-icpr,
   title=FineFACE: Fair Facial Attribute Classification Leveraging Fine-grained Features},
   author={Ayesha Manzoor and Ajita Rattani},
   booktitle    = {{The International Conference on Pattern Recognition (ICPR)}},
   publisher    = {{IAPR}},
   year         = {2024}
-}```
+}
+```
 
    
    
