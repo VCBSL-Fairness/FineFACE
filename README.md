@@ -1,5 +1,8 @@
 # FineFACE: Fair Facial Attribute Classification Leveraging Fine-grained Features
 
+## Table of Contents
+- [Overview](Overview)
+
 ## Overview
 
 Published research highlights the presence of demographic bias in automated facial attribute classification algorithms, particularly impacting women and individuals with darker skin tones. Existing bias mitigation techniques typically require demographic annotations and often obtain a trade-off between fairness and accuracy, i.e., Pareto inefficiency. Facial attributes, whether common ones like gender or others such as "chubby" or "high cheekbones", exhibit high interclass similarity and intraclass variation across demographics leading to unequal accuracy. This necessitates the use of local and subtle cues using fine-grained analysis for differentiation.  This paper proposes a novel approach to fair facial attribute classification by framing it as a fine-grained classification problem. Our approach effectively integrates both low-level local features (like edges and color) and high-level semantic features (like shapes and structures) through cross-layer mutual attention learning. Here, shallow to deep CNN layers function as experts, offering category predictions and attention regions.
@@ -27,7 +30,7 @@ This source code was tested on
 
 ## Datasets
 
-1. Download the FairFace, UTKFace, LFWA+ and CelebA datasets and organize the structure as follows:
+1. Download the [FairFace](https://github.com/joojs/fairface), [UTKFace](https://susanqq.github.io/UTKFace/), [LFWA+](https://drive.google.com/drive/folders/0B7EVK8r0v71pQ3NzdzRhVUhSams?resourcekey=0-Kpdd6Vctf-AdJYfS55VULA) and [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) datasets and organize the structure as follows:
 
 - dataset folder
   - train
