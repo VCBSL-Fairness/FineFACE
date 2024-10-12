@@ -312,8 +312,6 @@ def train(nb_epoch, batch_size, store_name, resume=False, start_epoch=0, model_p
             with open(exp_dir + '/results_test.txt', 'a') as file:
                 file.write('Iteration %d, test_acc_combined = %.5f, test_loss = %.6f\n' % (
                 epoch, val_acc_com, val_loss ))
-                for (race, gender), acc in accuracies.items():
-                    file.write(f'{race} {gender} Accuracy: {acc:.2f}%\n')
         else:
             net.cpu()
             torch.save(net, './' + store_name + '/model.pth')
